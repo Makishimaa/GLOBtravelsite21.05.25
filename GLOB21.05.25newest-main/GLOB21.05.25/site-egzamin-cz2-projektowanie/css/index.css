@@ -7,13 +7,14 @@
 }
 
 
-
 a, button{
      text-decoration: none;
      color: black;
      font-weight: bold;
      font-size: 20px;
 }
+
+
 
 .active{    
      border-bottom: #5CD714 2px solid;
@@ -67,6 +68,14 @@ div .logo a{
      align-items: center;
      justify-content: space-between;
 }
+
+.navbar .navdiv .signin{
+     background-color: black;
+     color: white;
+     padding: 10px;
+     border-radius: 10px;
+}
+
 
 li{
      list-style-type: none;
@@ -179,6 +188,10 @@ div.scroll-container {
    
    div.scroll-container img {
      padding: 10px;
+     width: 80%;
+     height: 75%;
    }
+
+
    
    
