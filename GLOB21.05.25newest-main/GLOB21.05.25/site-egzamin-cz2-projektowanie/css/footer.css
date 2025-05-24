@@ -1,5 +1,5 @@
 footer{
-     background-color: black;
+     background-color: #ddd;
      margin-top: 80px;
 }
 
@@ -16,26 +16,28 @@ footer{
 .socialIcons a{
      text-decoration: none;
      padding: 10px;
-     background-color: white;
-     margin: 10px;
+     background-color: black;
+     margin: 0px 20px;
      border-radius: 50%;
 }
 
 .socialIcons a i{
      font-size: 2em;
-     color: black;
+     color: white;
      opacity: 0.9;
 }
 
 /* hover */
 .socialIcons a:hover{
-     background-color: black;
+     background-color: white;
      transition: 0.5s;
+     border-bottom: none;
 }
 
 .socialIcons a:hover i{
-     color: white;
+     color: black;
      transition: 0.5s;
+     border-bottom: none;
 }
 
 .footerNav{
@@ -47,15 +49,19 @@ footer{
      justify-content: center;
 }
 
+.footerNav ul li{
+     list-style: none;
+}
+
 .footerNav ul li a{
-     color: white;
+     color: black;
      margin: 20px;
      text-decoration: none;
      font-size: 1.3em;
 }
 
 .footerBottom{
-     background-color: rgb(37, 36, 36);
+     background-color: black;
      padding: 20px;
      text-align: center;
 }
