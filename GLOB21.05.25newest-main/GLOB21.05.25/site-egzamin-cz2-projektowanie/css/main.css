@@ -99,6 +99,23 @@
 }
 
 
-.activities-item-title p{
+.activities-item-title,.activities-item p{
      width: 100%;
+     font-size: 20px;
 }
+
+/* activities-item */
+
+/* video */
+     .div-video{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+     }     
+
+     video{
+          border-radius: 5px;
+          justify-content: center;
+     }
+
+/*video*/
