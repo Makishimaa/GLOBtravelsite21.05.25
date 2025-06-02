@@ -72,3 +72,35 @@ a:hover {
 
 /* Header */
 
+@media (max-width:1007px) {
+     .div-logo{
+          display: flex;
+          justify-content: center;
+     }
+
+     .header{
+          display: flex;
+          flex-direction: column;
+     }
+     
+     .padding{
+          padding: 20px 50px;
+     }
+
+     .header-right{
+          margin-top: 30px;
+     }
+
+}
+
+@media (max-width: 669px) {
+     .item{
+          margin-left: 30px;
+          
+     }
+     
+     .active{
+          margin-right: 0;
+     }
+}
+

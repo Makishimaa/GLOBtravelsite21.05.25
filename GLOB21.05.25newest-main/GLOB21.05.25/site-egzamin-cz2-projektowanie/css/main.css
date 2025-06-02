@@ -119,3 +119,59 @@
      }
 
 /*video*/
+
+
+@media (max-width: 1010px) {
+     main img{
+          width: 100%;
+     }
+     .padding {
+        padding: 20px 80px;
+     }
+     .search-bar{
+          width: 100%;
+     }
+}
+
+
+@media (max-width: 569px) {
+
+     .search-bar{
+          max-width: 539px;
+     }
+     
+
+     .item{
+          margin-left: 20px;
+     }
+
+     .search-list li a {
+          margin-right: 20px;
+     }
+
+     .search-title h1 {
+          text-align: center;
+          font-size: 36px;
+          margin-bottom: 32px;
+          font-weight: 900;
+      }
+
+     main img{
+          width: 100%;
+     }
+
+     .activities-item-title h1, h2 {
+          font-size: 24px;
+          margin-bottom: 20px;
+     }
+
+     .activities-item-title,.activities-item p {
+          width: 100%;
+          font-size: 16px;
+     }
+
+     .active{
+          margin-right: 0;
+     }
+
+}
